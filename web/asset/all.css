@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+Created on : Nov 26, 2021, 2:15:18 PM
+Author     : Dika Oji
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    font-family: arial;
+    border: 0px;
+    white-space: nowrap;
+}
+textarea {
+    white-space: normal!important;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+h1{
+    margin-bottom: 5px;
+}
+input {
+    height: 25px;
+    width: 250px;
+}
+textarea{
+    width: 318px;
+    height: 89px;
+    resize:none
+}
+select {
+    height: 38px;
+    width: 250px;
+    background: #fff
+}
+input, textarea, select{
+    border: 1px solid #827e7e;
+    padding: 5px;
+    margin-bottom: 10px
+}
+.menu {
+    color: #fff;
+    padding: 0px 10px;
+}
+#header{
+    background: #00a39d;
+    padding: 10px 15px;
+    border-bottom: 5px solid #f8ad3c;
+}
+#footer{
+    text-align: center;
+    background: #f8ad3c;
+    margin-top: 20px;
+    width: 100%;
+}
+#footer>p{
+    padding: 15px 10px;
+}
+.btn {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    background: #00a39d;
+    color: #fff;
+}
+.btn:hover, .submit:hover{
+    background: #15c3bc;
+    transition: 0.5s
+}
+.landing {
+    margin: 0 auto;
+    width: 60%;
+    background: #f6f6f6;
+    padding: 40px;
+}
+.nav {
+    text-align: right;
+}
+.content {
+    background: #fff;
+    padding: 40px
+}
+.red{
+    color: #ff0000;
+}
+.submit {
+    width: 200px;
+    background: #00a39d;
+    color: #fff;
+    height: 40px;
+    cursor: pointer
+}
+@media screen and (max-width:320px) {
+    .landing{
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        width: 72%
+    }
+}
